@@ -1,0 +1,297 @@
+<!-- HTML index document -->
+<!DOCTYPE html>
+<html lang = "en" dir = "LTR">
+	
+	<!-- defining data about this HTML document  -->
+	<head>	
+		<!-- specifying the charcter set "utf-8" for this website to be written in -->
+		<meta charset="utf-8"/>
+		
+		<!-- adjusting the size of the page to different device screens so it can be scaled appropriately -->
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		
+		<!-- decribing the webpage in a short sentence | useful for screen readers -->
+		<meta name="description" content="an electronic portfolio for a current undergraduate Computer Science student, consisting collection of personal overview, verdict, response to course units currently studying">
+		
+		<!-- titled webpage on a browser's tab -->
+		<title> Healal Uddin | E-Portfolio </title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">   <!-- linking a specified font to an external link -->
+		<link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">       <!-- linking another font to an external link -->
+		<link rel="stylesheet" type="text/css" href="ePortfolioStyleSheet.css">	    <!-- referencing source to a CSS file to style the markup -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- referencing URL source to externally input icons -->
+
+	</head>
+
+	<!-- documenting internal webpage -->
+	<body>
+		
+		<!-- container wrapping other semantic elements including contents under here -->
+		<div class = "container">
+		
+			<!-- classing a div tag which can be used to be style in CSS | separate from a navigation element -->
+			<div class = "topBar"> 
+				<input type="text" placeholder="Search here..." align="center"><i id = "searchIcon" class="fa fa-search"></i>			<!-- creating a input box -->
+			</div> 
+				
+			<!-- defining the top part of the page -->	
+			<header>
+				
+				<h1 id = "pageHeader" title="Webpage Header">Healal Uddin</h1> <!-- naming H1 as an identifier to be uniquely styled -->
+				<p id = "subHeading" title="Subheading of this page in header"> Scan and discover the <em> miraculous </em> journey I'd adventured! </p>
+			
+			</header> <!-- header area ends wrap -->
+			
+			<!-- defining the navigation bar  -->
+			<nav>
+				
+				<ul class = "navBar"> <!-- setting/defining an unordered list -->
+					
+					<li> <a class="activeHome" href="ePortfolioIndex.html" title="Landing Home Page for Healal's ePortfolio"> Home </a> </li>																	
+					<li> <a href="InfoSystem&CSF.html" title="Page Directing to Information System and Computer Systems Fundamentals"> Information System </a> </li>	
+					<li> <a href="InfoSystem&CSF.html" title="Page Directing to IS and CSF"> Computer System </a> </li>			
+					<li> <a href="Programming&WDD.html" title="Page Directing to Programming and Web Design Development"> Programming </a> </li>
+					<li> <a href="Programming&WDD.html" title="Page Directing to PRGM and WDD"> Web Design Development </a> </li> 
+					<li> <a href = "SelfAssessment.html" title="Page Directing to Self-Evaluative Verdict Assessment"> Self Assessment </a> </li>
+				
+				</ul> <!-- closes the unordered list from being created in here-->
+			
+			</nav> <!-- shuts the "nav" tag -->
+			
+			<!-- creating a breadcrumb navigation area -->
+			<div class = "breadCrumbNav" align = "center">
+				
+				<ul>
+					<li> <a class="activeHome" href="ePortfolioIndex.html" title="Landing Home Page for Healal's ePortfolio">Home (you are here)</a></li>
+					<li> <a href="InfoSystem&CSF.html" title="Page Directing to Information System and Computer Systems Fundamentals"> Click here to go next page </a></li>
+				
+				</ul>
+			
+			<div> <!-- breadcrumb navigation ends wrap -->
+			
+			<main> <!-- this is the Main Content of this Landing Page  -->
+				
+				<article> <!-- article begins -->	
+				
+					<!-- <section class = "firstSection"> <!-- grouping elements under this div tag --> 
+					<section id = "bio"> <!-- naming semantic tag of section as an ID -->
+						<h2 id = "bioHead" title="Section Heading"> Who Am I ? What do I do? </h2>  <!-- defining the name of a particular H2 in here -->
+						<p id = "bioMain">
+						A <strong> calm-cooling, easy-going indivdual </strong>, Healal is a comfortable IT literate. Born on the year 2000, the year in which computers have started to revolutionise,
+						he has been intrigued by the development of systems and technologies since at an early age during his GCSEs years.
+						Commenced in September 2018, he is studying BSC Computer Science in Manchester Metropolitan University, having enrolled successfully
+						and gained a place to this course in the Summer of 2018.
+						A winner and a participant of the <a href = "http://ventura.designmuseum.org/2015/01/20/well-done-2014-award-winners/" title="Link directing to a Design Ventura website, showing the winning school team">Design Ventura 2014</a> - 
+						Healal had been nominated for a year-long design competition with 4 other peers, representing the school.
+						Healal and his team originated an initial design idea to a constructed packaged product competiting against 47,000 other students. Collectively as a team, they launched
+						their very own designed product in the <a href = "http://ventura.designmuseum.org/2015/02/28/winning-product-2014-card-cogs/" title="Link directing to Design Ventura site, displaying winning team's documentation">Design Museum Shop, London.</a> </p>
+						
+					</section>
+						
+					<!-- naming "profile" in order to be uniquely styled -->	
+					<aside id = "profile"> 
+						
+						<img id = "picMyPhoto" src = "ePortfolioMyPic.jpg" alt = "image of Healal's face portrait">
+						
+						<h2> Profile </h2>
+						
+						<div id ="profileContact"> <!-- div tag created to style the below indented wrap  -->
+							<!--  i classes creation for applying different icons on page --> 
+							<p> <i class="fa fa-venus-mars" title="icon for gender"></i> | Male </p>
+							<p> <i class="fa fa-birthday-cake" title="icon for birthday"></i> | March 2000 </p>
+							<p> <i class="fa fa-map-marker" title="icon for location"></i> | Manchester </p>
+							<p> <i class="fa fa-briefcase" title="icon for study"></i> | Occupation: <em> Student </em> </p>
+							<p> <i class="fa fa-graduation-cap" title="icon for subject course"></i> Studies: <em> BSC Computer Science </em> </p>
+							<p> <i class="fa fa-university" title="icon for university institute"></i> | Studying in: <em> Manchester Metropolitan University </em></p>
+							<p> <i class="fa fa-id-card" title="icon for license card"></i> | License: Full UK Driving License </p>
+						</div>
+						
+					</aside> <!-- aside element closes wrap -->
+						
+					<section id = "extraInfo"> <!-- establishing a section with its ID name and the below content -->
+						<h3 align = "center"> Check these out !! </h3>
+						
+						<div id = "extraInfoDiv" align="center">
+							
+							<p> Not just an boring biography, but a very adventurous one too: </p>
+							
+							<ul class = "extras"> <!-- unordered list created with a class name -->
+								<li class ="lineExtrasBox"> Hobbies </li>
+									<li> Tech Lover. And a Man U Supporter. Be sure to check my interest just below! </li> <br>
+								<li class ="lineExtrasBox"> Academic Unit Overviews </li>
+									<li> Find about my other unit that I study as well as <a href="Programming&WDD.html">Web Design!</a> </li> <br>
+								<li class ="lineExtrasBox"> Personal Development </li>
+									<li> Head over <a href="SelfAssessment.html">here</a> to see what things I reflect upon...</li>
+							</ul>
+							
+						</div>
+						
+					</section> <!-- #extraInfo wrap shuts -->
+					
+					<section id = "education" align = "center">
+						<h2 title = "Education Section Headed Title"> Education </h2>
+						<p> As you can see here, below are my qualifications up-to-date... </p>
+							
+							<!--  responsive table with width 100%  -->
+							<table id = "educationTbl" align = "center"> <!-- applying (tr) row and (th) column cells in table -->
+								
+								<!-- creating 1st table row and styled uniquely as a main heading -->
+								<tr id = "qualificationHead">
+									<th colspan = "5" title = "Table Headed Title"> ---/~  Qualifications  ~\--- </th>  <!-- this cell heading spans over 5 columns  -->
+								</tr>
+								
+								<!-- naming and grouping the second row, giving "title" attributes for added info/detail on table headings of the 2nd row  -->
+								<tr id = "columnHeads">
+									<th title="Level"> Level </th>
+									<th title="Type"> Type
+									<th title="Course Subject"> Course Subject </th>
+									<th title="Institute"> Institute </th>
+									<th title="Grade"> Grade (P/F) </th>
+								</tr>
+								
+								<!--  adding "tr" for rows, "td" for cell data -->
+								
+								<tr>
+									<td> Level 4 </td>
+									<td> BSC </td>
+									<td> Computer Science </td>
+									<td> Manchester Metropolitan Uni </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<!-- the specified row spans across 3 columns -->
+									<td id = "rowTahfeez", colspan = "3" title="Advanced Islamic Course"> Tahfeez-ul-Qur'an </td>
+									<td> Shahporan Masjid, Manchester </td>
+									<td id = "rowTahfeezColumn5" title="Course Completed|Graduated with Title"> *Certified* | Title given as: Hafiz </td>
+								</tr>
+								<tr>
+									<td> Level 3 </td>
+									<td> A-LEVEL </td>
+									<td> Computer Science </td>
+									<td> Xaverian College </td>
+									<td> B </td>
+								</tr>
+								<tr>
+									<td> Level 3 </td>
+									<td> BTEC </td>
+									<td> Information Technology </td>
+									<td> Xaverian College </td>
+									<td> Distinction </td>
+								</tr>
+								<tr>
+									<td> Level 3 </td>
+									<td> A-LEVEL </td>
+									<td> Graphic Design </td>
+									<td> Xaverian College </td>
+									<td> C </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Computer Science </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Product Design </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Mathematics </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Physics </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Chemistry </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Biology </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> Geography </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> English Language </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+								<tr>
+									<td> Level 2 </td>
+									<td> GCSE </td>
+									<td> English Literature </td>
+									<td> Burnage Academy for Boys </td>
+									<td> - </td>
+								</tr>
+							</table> <!-- shuts the table tag from any elements being made here -->
+					
+					</section> <!-- end this particular #education section -->
+			
+					<section id = "hobbies"> <!-- establishing additional section  --> 
+						
+						<h4 title = "Hobbies and Interest Headed Title" class = "unitTitles"> Hobbies & Interest </h4>   <!-- adding info for clarity and readiability for users -->
+						
+						<p> Football fanatic, Healal is a Manchester United supporter since he was a kid. <br>
+						Enjoying all aspects of sports, he strongly adores playing football as well as watching his favourite team play on T.V. either with his mates and friends or with his younger siblings!
+						Ocassionally, he likes staying engage with the trends of tech-based gadgets and also with the latest digital games such as Fifa 19 and Black Ops 4 !  </p>
+						<p> Families, friends, mates tend to describe him as a kind-hearted figure, caring others and being an appreciative person.
+						Beside this, he always up for challenges regarding anything from video games competitions to playing football matches competively </p>
+					
+					
+					</section>﻿ <!-- #hobbies section wrap ends -->
+
+				</article> <!-- shuts the article tag -->
+			
+			</main> <!-- main content of article, sections area ends wrap -->
+			
+			<!-- defining the bottom footer part -->
+			<footer title="Bottom Footer Area"> 
+				
+				<p> Created and Designed by Healal Uddin <br>
+					Enquiries | FAQs | About <br>
+					Email: 18007361@stu.mmu.ac.uk </p>
+				
+				<!-- setting span tag to wrap elements of i classes -->
+					<span>
+					
+					<!-- retrieving favicons from external website  -->
+						<i class ="fa fa-facebook-official"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-snapchat"></i>
+						<i class="fa fa-linkedin"></i>
+					
+					</span> <!-- ends wrap of span elements -->
+			
+			</footer> <!-- elements in footer area ends -->
+		
+		</div> <!-- content in container end wraps -->
+		
+	</body> <!-- ends content inside the webpage -->
+
+</html>
