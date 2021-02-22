@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- setting HTML language in English with Left-to-Right direction  -->
+<html lang = "en" dir = "LTR">
+	
+	<!-- applying external non-visible info for webpage -->
+	<head>
+		
+		<meta charset = "utf-8">
+		
+		<!-- adjusting the size of the page to different device screens -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<!-- decribing the webpage in a short sentence | useful for screen readers -->
+		<meta name="description" content="page looking at two core course units, Information Systems (IS) and Computer Systems (CSF), Healal is currently studying">
+		
+		<!-- titled webpage on a browser's tab -->
+		<title> Unit View: IS | CSF </title>
+		
+		<!-- referencing source to relate this doc to a stylesheet -->
+		<link href = "ePortfolioStyleSheet.css" rel = "stylesheet" type = "text/css">
+		
+		<!-- linking a specified font to an external link -->
+		<link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet"> 
+		
+		<!-- referencing URL source to externally input icons -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	</head> 
+
+	<!-- documenting internal webpage -->
+	<body>
+		
+		<!-- container wrapping other semantic elements including content under here -->
+		<div class = "container"> 
+			
+			<!-- defining the top part of the page -->
+			<header>
+				
+				<h1> Information System & Computer System Fundamentals </h1>
+				<p> This page looks at two of the units that Healal is studying in Computer Science </p>
+			
+			</header> <!-- wrap ends for header -->
+				
+			<nav> <!-- horizontal navigation initiation -->
+				
+				<ul class = "navBar"> <!-- unordered list type -->
+					
+					<!-- hyper-referenced list items to specified pages, with added description in the "title" text attribute  -->
+					<li> <a href="ePortfolioIndex.html" title="Landing Home Page for Healal's ePortfolio"> Home </a> </li>
+					<li> <a id="activeIS" href="InfoSystem&CSF.html" title="Page Directing to Information System and Computer Systems Fundamentals">Information System</a> </li>	
+					<li> <a id="activeCSF" href="InfoSystem&CSF.html" title="Page Directing to IS and CSF"> Computer System </a> </li>
+					<li> <a href="Programming&WDD.html" title="Page Directing to Programming and Web Design Development"> Programming </a> </li>
+					<li> <a href="Programming&WDD.html" title="Page Directing to PRGM and WDD"> Web Design Development </a> </li>    
+					<li> <a href = "SelfAssessment.html" title="Page Directing to Self-Evaluative Verdict Assessment"> Self Assessment </a> </li>
+				
+				</ul> <!-- closes the unordered list tag -->
+			
+			</nav> <!-- shuts the "nav" tag -->
+			
+			<!-- creating a breadcrumb navigation area -->
+			<div class = "breadCrumbNav" align = "center">
+				
+				<ul>
+					
+					<!-- list item that displays on breadcrumb bar -->
+					<li><a href="ePortfolioIndex.html" title="Landing Home Page for Healal's ePortfolio">Go back on HOME page		</a></li>
+					<li> <a id="activeIS" href="InfoSystem&CSF.html" title="current page"> Information System & Computer System (you are here) </a></li> 
+					<li> <a href="Programming&WDD.html" title="Go to the Programming Unit page"> 		Click here to go next page </a> </li>
+				
+				</ul>
+			
+			<div> <!-- breadcrumb navigation ends wrap  -->
+			
+			<main> <!-- structuring main tag suitably for screen-readers to follow the layout of the markup -->
+				
+				<article class = "unitsArticle"> <!-- article content wrap start  -->
+					
+					<div class "topSectionIS">
+						
+						<h2 id = "topSectIS" align = "center"> Information Systems </h2>
+						
+						<section class = "secIS"> <!-- establishing a section with its ID name and the below content / structured elements -->
+							
+							<h3 class = "unitTitles"> IS Topics: <br>  Overview and Currently Covered </h3>  <!-- thid typical element gets styled with a named selector ".unitTitles"  -->
+							
+							<p> The module Information System (IS) in my course looks at the strategies used in planning a computerised system as well as looking into "System Analysis",
+							"System Design" phases as a foundation base of implementing and developing an IS with practical operation in place.
+							This unit also compromises written and presentation techniques as well as oral communication skills. </p> <br>
+							
+							<!--  below "p" tag aligns towards the left hand side -->
+							<p align="left"> Covered so far in this year: </p>
+							
+							<!-- unordered group applies no list-style -->
+							<ul type="none" align="left">
+								<li> Business Organisation Strategies </li>
+								<li> Social Business Issues relating to IS </li>
+								<li> SDLCs (System Development Lifecycle) </li>
+								<li> System Analysis Techniques </li>
+								<li> UCs (Use Cases) | Use Case Diagrams, Use Case Specification </li>
+								<li> Data Modelling
+								<li> ERDs (Entity Relationship Diagrams) | Top-down/Bottom-up, Normalisation, Primary/Foreign Keys, 1:1/M:N/1:M/  </li>
+								<li> RDAs (Relational Data Analysis) | Normalisation | 1NF 2NF 3NF </li>
+							</ul>
+							
+							<img id = "picUCD" src = "ePortfolioUCD.jpg" alt = "picture showing an Use Case Diagram">
+							
+						</section> <!-- ends 1st set of section wrap  -->
+						
+						<!--  establishing section for adding layout to page  -->
+						<section class = "secIS">
+							
+							<h3 class = "unitTitles"> IS Later Topics: <br> Overview and Brief Reflection</h3>
+							
+							<p align="right"> Further in year:</p>
+							
+							<ul type="none" align="right"> <!-- creating unordered list of "circle" types -->
+								<li> e-Commerce (+Internet) Strategy & Techniques </li>
+								<li> Databases & SQLs </li>
+								<li> Data Mining </li>
+								<li> Cloud Computing </li>
+							</ul> <br>
+							
+							<p> In the 1st term, this unit starts a project from the beginning carrying on throughout the year with an on-going group-based collaboration through each step and stage of the way. <br>
+							At the time of writing, I am tasked to plan and analyse a particular system implementation to a business organisation using design diagrams such as UCDs, UCSs and ERDs.
+							I had also just completed a 1500 word-limit report document on a business case study, setting out system requirements for it detailing what it required and describing how it may be used.  </p>
+							
+							<p> How do I feel about with the unit ?...
+							Prior and independent study has massively improved with the way I engage with the course units such as this IS & DB unit. This is merely due to putting in practice, time and hardwork into extra 
+							hours outside class-time. </p>
+						
+						</section> <!-- closing #secIS wrap -->
+					
+					</div> <!-- end of elements wrapping within this tag -->
+					
+					<section id = "secCSF"> <!-- establishing a section with its ID name and the below content -->
+						
+						<h2 id = "bottomSectCSF" align = "right"> Computer System Fundamentals </h2> <!-- named ID which will be solely styled  -->
+						
+						<section class = "secCSF" align = "center"> <!-- nested section set so it can be styled differently  -->
+							
+							<h3 class = "unitTitles"> CSF: Overview and Breakdown </h3> <!-- this heading element gets applied a named class style -->
+							
+							<p> CSF unit provides the science behind the system, typically encompassing a fruitful range of topics that will be taught this academic year.
+							From Digital Logic Gates and Boolean Algebra Circuits to computational mathematics topic of Sets, Matrices and Vectors!
+							it's a unit underpinning the elements, components, peripherals, layered deep within systems. </br> </p>
+							<p> In Laboratory classes, as a group, we had explored many different interactive combinations using: <a href="http://www.cburch.com/logisim/">LogiSim</a>
+							- a graphic-based application for designing and simulating digital logic circuits (simple/combinational/interdeterminate). Here, we could manually generate circuits on the canvas screen 
+							or simply enter a given boolean expression on an in-tab generator. </p>
+							
+							<!-- referencing an image source saved in the folder of this document with an alternative meaningful text added to it in case it does not display -->
+							<img id = "picCSF" src = "ePortfolioCSF.jpg" alt = "picture showing a completed logic circuit diagram on LogiSim">
+							
+							<p align = "left"> Covered so far... </p>
+							
+							<!-- aligns the unordered list group to the left side  -->
+							<ul align = "left">
+								
+								<li> Digital Logic Gates </li>
+								<li> Truth Tables </li>
+								<li> Combinational Circuits </li>
+								<li> Karnaugh Maps </li>
+								<li> Memory, Registers, ALU </li>
+								<li> Von-Neumann/Harvard Architecture </li>
+								<li> Fetch-Execute Cycle </li>
+							
+							</ul>
+							
+						</section> <!--  secCSF ends wrap -->
+						
+						<section class = "secCSF"> <!-- structuring another section of the same name -->
+							
+							<h3 class = "unitTitles"> CSF: Reflection </h3> <!-- this heading gets style applied with a named class selector  -->
+							
+							<p> " How I'm feeling about the unit "... </p>
+							<p> I think I feel that I'm coping well in terms of picking up new things really quick such as understanding how the 7-segment-display works
+							For this unit in particular, I would truly say I haven't put enough hours privately comapred to my other modular units such as the Web Design and Programming units
+							where I have put more hours into them more than this so far in the year. Prior studying does helps a lot, and research shows it does help in studies
+							The next step I'd say, is to give equal amount of time in this CSF unit as well as others, including the Computing Mathematics part. </p>
+						
+						</section> <!-- end of last section wrap  -->
+					
+					</section>   <!-- section overall #secCSF ends wrap -->
+					
+				</article> <!-- shuts the article tag -->
+			
+			</main> <!-- main element ends wrap -->
+			
+			<footer> <!-- begin wrap of footer  -->
+				<p> Created and Designed by Healal Uddin <br>
+					Enquiries | FAQs | About <br>
+					Email: 18007361@stu.mmu.ac.uk </p>
+				
+				<!-- setting span tag to wrap elements of i classes -->
+				<span>
+					
+					<!-- inputting favicons onto "i" tags -->
+					<i class="fa fa-facebook-official"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-snapchat"></i>
+					<i class="fa fa-linkedin"></i>
+				
+				</span> <!-- span closes its own wrap -->
+				
+			</footer>  <!-- elements in footer area ends -->
+
+		</div>  <!-- content in container end wraps -->
+
+	</body>   <!-- ends content inside the webpage -->
+
+</html>
